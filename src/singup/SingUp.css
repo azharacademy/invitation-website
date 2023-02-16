@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600&display=swap');
+
+@media (max-width: 412px) {
+    .mai_div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_div img {
+        margin-top: 0.8rem;
+        /* display: flex;
+        justify-content: center; */
+    }
+
+    .text_area {
+        margin-top: 0.4rem;
+    }
+
+    .btn {
+        margin: 1rem;
+        /* position: absolute; */
+        border: 1px solid #FF9A9E;
+        border-radius: 36px;
+        background: #FFFFFF;
+
+    }
+
+  
+    .button-singup{
+        width: 121px;
+        height: 36px;
+        border-radius: 36px;
+        background: #FF9A9E;
+        border: none;
+
+    }
+.button-login{
+    width: 121px;
+    height: 36px;
+    border-radius: 36px;
+    border: none;
+
+}
+    .inputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .input-items {
+        margin-bottom: 1rem;
+        border-radius: x;
+        background: #FFFFFF;
+        border: 1px solid #64070A;
+        border-radius: 25px;
+        width: 328px;
+        height: 33px;
+    }
+
+    .input-items[type="text"]::placeholder {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 10px;
+
+        color: #929292
+    }
+
+    .input-items[type="email"]::placeholder {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 10px;
+
+        color: #929292
+    }
+
+    .input-items[type="password"]::placeholder {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 10px;
+
+        color: #929292
+    }
+
+    .sing_btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .sing_btn button {
+        background: #FF9A9E;
+        border-radius: 26px;
+        position: absolute;
+        width: 184px;
+        font-size: 1.5rem;
+        /* margin: 1rem; */
+    }
+
+    .line_text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn_icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* position: relative; */
+        margin: 3rem;
+    }
+
+    /* .btn_icons button {
+        margin-bottom: 1rem;
+        width: 328px;
+    } */
+
+    .google_btn {
+        box-sizing: border-box;
+        /* position: absolute; */
+        width: 328px;
+        background: #FFFFFF;
+        border: 1px solid #FF9A9E;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: 1.2rem; */
+    }
+
+    .facebook_btn {
+        box-sizing: border-box;
+        width: 328px;
+        background: #FFFFFF;
+        border: 1px solid #FF9A9E;
+        border-radius: 25px;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .google_btn_div {
+        position: absolute;
+    }
+
+    .facebook_btn_div {
+        position: absolute;
+    }
+
+}
