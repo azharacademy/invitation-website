@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600&display=swap'); */
 
 @media (max-width: 412px) {
     .mai_div {
@@ -16,6 +16,11 @@
 
     .text_area {
         margin-top: 0.4rem;
+        font-family: Merienda;
+        color: #64070A  ;
+        font-weight: 400;
+        font-size: 20px;
+
     }
 
     .btn {
