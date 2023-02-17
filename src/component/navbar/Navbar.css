@@ -1,0 +1,85 @@
+@media (max-width: 412px) {
+
+
+    * {
+        margin: 0%;
+        padding: 0%;
+        background-color: #FFFFFF;
+    }
+
+    .burgur_btn img {
+        width: 1.2rem;
+        height: 1rem;
+        margin-left: 1rem;
+
+    }
+
+    .burgur_btn {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .burgur_btn h3 {
+        padding-left: 1rem;
+        color: #64070A;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Inter';
+        font-style: normal;
+    }
+
+    .input_search {
+        background: #FFFFFF;
+        border: 1px solid #64070A;
+        border-radius: 15px;
+        box-sizing: border-box;
+        position: absolute;
+        width: 328px;
+        height: 36px;
+        left: 17px;
+        top: 74px;
+    }
+
+    .input_search input {
+        border: none;
+
+    }
+
+    .inputs {
+        /* padding: 5px; */
+        padding: 7px;
+        position: absolute;
+        left: 31px;
+
+    }
+
+    /* .input_img{
+        width: 18px;
+        height: 18px;
+        top: 3px;
+        left: 3px;
+    } */
+    .input_img {
+        position: absolute;
+        top: 8px;
+        left: 5px;
+        height: 18px;
+    }
+
+    .inputs[type="search"]::placeholder {
+        padding-left: -1px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: left;
+    }
+    .a_tag{
+        text-decoration: none;
+        position: absolute;
+        top: 7rem;
+    }
+}
