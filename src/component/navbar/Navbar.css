@@ -77,9 +77,15 @@
         line-height: 17px;
         text-align: left;
     }
-    .a_tag{
+
+    .a_tag {
         text-decoration: none;
-        position: absolute;
-        top: 7rem;
+        /* position: absolute; */
+        top: 5rem;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        
     }
+
 }
