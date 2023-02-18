@@ -1,46 +1,90 @@
-import React from 'react'
+import React, { useState } from 'react'
 import img1 from '../images/Ellipse 2.png'
 import img2 from '../images/logo_google.png'
 import img3 from '../images/logo_facebook.png'
 import "./SingUp.css"
 
 function SingUp() {
+    const [isLogin, setIsLogin] = useState(true)
+
+
     return (
-        <div className='mai_div'>
-                <div>
-            <div className='img_div'>
-                <img src={img1} alt="" />
-            </div>
+        <>
+            {isLogin ?
 
-            <h3 className='text_area'>Invitation Planet</h3>
 
-            <div className='btn'>
-                <button className='button-singup'>Sing Up</button>
-                <button className='button-login'>Login</button>
-            </div>
-            </div>
-            <div className='inputs'>
-                <input type='text' placeholder='Name'  className='input-items'/>
-                <input type='email' placeholder='Email' className='input-items'/>
-                <input type='password' placeholder='password'className='input-items' />
-            </div>
+                <div className='mai_div'>
+                    <div>
+                        <div className='img_div'>
+                            <img src={img1} alt="" />
+                        </div>
 
-            <div className='sing_btn'>
-                <button>Sing Up</button>
-            </div>
+                        <h3 className='text_area'>Invitation Planet</h3>
 
-            <div className='line_text'>
-                <hr /><span>OR</span><hr />
-            </div>
+                        <div className='btn'>
+                            <button className='button-singup' onClick={() => setIsLogin(true)}>Sing Up</button>
+                            <button className='button-login' onClick={() => setIsLogin(false)}>Login</button>
+                        </div>
+                    </div>
+                    <div className='inputs'>
+                        <input type='text' placeholder='Name' className='input-items' />
+                        <input type='email' placeholder='Email' className='input-items' />
+                        <input type='password' placeholder='Password' className='input-items' />
+                    </div>
 
-            <div className='btn_icons'>
-                    <button className='google_btn'><img src={img2} alt=''  style={{    marginRight: "14px"}}/><span>Sing in With Google</span></button>
-               
-                    <button className='facebook_btn'><img src={img3} alt=''  style={{    marginRight: "14px"}}/>Sing in With Facebook</button>
-                
+                    <div className='sing_btn'>
+                        <button>Sing Up</button>
+                    </div>
 
-            </div>
-        </div>
+                    <div className='line_text'>
+                        <hr /><span>OR</span><hr />
+                    </div>
+
+                    <div className='btn_icons'>
+                        <button className='google_btn'><img src={img2} alt='' style={{ marginRight: "14px" }} /><span>Sing in With Google</span></button>
+
+                        <button className='facebook_btn'><img src={img3} alt='' style={{ marginRight: "14px" }} />Sing in With Facebook</button>
+
+                    </div>
+                </div>
+
+                : <div>
+                    <div className='mai_div'>
+                        <div>
+                            <div className='img_div'>
+                                <img src={img1} alt="" />
+                            </div>
+
+                            <h3 className='text_area'>Invitation Planet</h3>
+
+                            <div className='btn'>
+                                <button className='button-singup' style={{ backgroundColor: '#FFFFFF', color: '#64070A' }} onClick={() => setIsLogin(true)}>Sing Up</button>
+                                <button className='button-login' style={{ backgroundColor: '#FF9A9E', color: '#FFFFFF' }} onClick={() => setIsLogin(false)}>Login</button>
+                            </div>
+                        </div>
+                        <div className='inputs'>
+                            <input type='email' placeholder='Email Id' className='input-items' />
+                            <input type='password' placeholder='Password' className='input-items' />
+                        </div>
+
+                        <div className='sing_btn'>
+                            <button>Login</button>
+                        </div>
+
+                        <div className='line_text'>
+                            <hr /><span>OR</span><hr />
+                        </div>
+
+                        <div className='btn_icons'>
+                            <button className='google_btn'><img src={img2} alt='' style={{ marginRight: "14px" }} /><span>Sing in With Google</span></button>
+
+                            <button className='facebook_btn'><img src={img3} alt='' style={{ marginRight: "14px" }} />Sing in With Facebook</button>
+                        </div>
+                    </div>
+
+                </div>
+            }
+        </>
     )
 }
 

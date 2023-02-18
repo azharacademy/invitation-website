@@ -43,11 +43,11 @@
         width: 121px;
         height: 36px;
         border-radius: 36px;
-        background: #FF9A9E;
         border: none;
         color: #FFFFFF;
         font-weight: 400;
         font-size: 16px;
+        color: #64070A;
 
     }
 
@@ -56,10 +56,10 @@
         height: 36px;
         border-radius: 36px;
         border: none;
-        color: #64070A;
+        /* background: #FF9A9E; */
         font-weight: 400;
         font-size: 16px;
-        background: #FFFFFF
+        /* background: #FFFFFF; */
 
     }
 
