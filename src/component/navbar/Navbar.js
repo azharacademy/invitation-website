@@ -18,11 +18,18 @@ function Navbar() {
                 </div>
             </div>
             <div className='a_tag'>
-                <a href='!' style={{textDecoration: 'none'}}>Wedding</a>
-                <a href='!' style={{textDecoration: 'none'}}>Birthday</a>
-                <a href='!' style={{textDecoration: 'none'}}>Festivals</a>
-                <a href='!' style={{textDecoration: 'none'}}>opening ceremony</a>
+                <ul>
+                    <li><a href='!' className='active'>Wedding</a> </li>
+                    <li><a href='!' >Birthday</a> </li>
+                    <li><a href='!'>Festivals</a> </li>
+                    <li><a href='!' >opening ceremony</a> </li>
+                </ul>
             </div>
+            {/* <di className="image-container">
+                <img className='backround-img' src={require("../images/Rectangle4.png")} alt="" />
+                <img className='main-img' src={require("../images/image18.png")} alt="" />
+                <img className='couple-img' src={require("../images/image19.png")} alt="" />
+            </di> */}
         </div>
     )
 }
