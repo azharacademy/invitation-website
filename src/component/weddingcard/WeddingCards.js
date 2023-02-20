@@ -9,14 +9,14 @@ function WeddingCards() {
                     <div style={{width:'50%'}}>
                         <div className="card card-container-in" >
                         <img src={require('../images/Rectangle14.png')} class="card-img-top" alt="..." />
-                                <h5 className='card-title card-title-invation'>Muslim Marriage Invitation</h5>
+                                <h5 className=' card-title-invation'>Muslim Marriage Invitation</h5>
                               
                         </div>
                     </div>
                     <div style={{width:'50%'}}>
                         <div class="card card-container-in" >
                         <img src={require('../images/Rectangle14.png')} class="card-img-top" alt="..." />
-                                <h5 className='card-title card-title-invation' >Hindu Marriage Invitation</h5>
+                                <h5 className=' card-title-invation' >Hindu Marriage Invitation</h5>
                        
                         </div>
                     </div>
