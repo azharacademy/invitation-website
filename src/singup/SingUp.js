@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import img1 from '../images/Ellipse 2.png'
-import img2 from '../images/logo_google.png'
-import img3 from '../images/logo_facebook.png'
+import img1 from '../component/images/Ellipse_2.png'
+import img2 from '../component/images/logo_google.png'
+import img3 from '../component/images/logo_facebook.png'
 import "./SingUp.css"
 
 function SingUp() {
@@ -37,7 +37,9 @@ function SingUp() {
                     </div>
 
                     <div className='line_text'>
-                        <hr /><span>OR</span><hr />
+                        <div></div>
+                        <div>OR</div>
+                        <div></div>
                     </div>
 
                     <div className='btn_icons'>
@@ -72,7 +74,9 @@ function SingUp() {
                         </div>
 
                         <div className='line_text'>
-                            <hr /><span>OR</span><hr />
+                            <div></div>
+                            <div>OR</div>
+                            <div></div>
                         </div>
 
                         <div className='btn_icons'>
