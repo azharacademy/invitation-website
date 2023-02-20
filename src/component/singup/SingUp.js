@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
+<<<<<<< HEAD:src/singup/SingUp.js
 import img1 from '../component/images/Ellipse_2.png'
+=======
+import img1 from '../component/images/Ellipse 2.png'
+>>>>>>> f24d485cf552d3873912dd25c672d8392398e404:src/component/singup/SingUp.js
 import img2 from '../component/images/logo_google.png'
 import img3 from '../component/images/logo_facebook.png'
 import "./SingUp.css"
@@ -21,7 +25,7 @@ function SingUp() {
 
                         <h3 className='text_area'>Invitation Planet</h3>
 
-                        <div className='btn'>
+                        <div className='btn_invitation'>
                             <button className='button-singup' onClick={() => setIsLogin(true)}>Sing Up</button>
                             <button className='button-login' onClick={() => setIsLogin(false)}>Login</button>
                         </div>
@@ -36,11 +40,17 @@ function SingUp() {
                         <button>Sing Up</button>
                     </div>
 
+<<<<<<< HEAD:src/singup/SingUp.js
                     <div className='line_text'>
                         <div></div>
                         <div>OR</div>
                         <div></div>
                     </div>
+=======
+                    {/* <div className='line_text'>
+                        <hr /><span>OR</span><hr />
+                    </div> */}
+>>>>>>> f24d485cf552d3873912dd25c672d8392398e404:src/component/singup/SingUp.js
 
                     <div className='btn_icons'>
                         <button className='google_btn'><img src={img2} alt='' style={{ marginRight: "14px" }} /><span>Sing in With Google</span></button>
@@ -59,7 +69,7 @@ function SingUp() {
 
                             <h3 className='text_area'>Invitation Planet</h3>
 
-                            <div className='btn'>
+                            <div className='btn_invitation'>
                                 <button className='button-singup' style={{ backgroundColor: '#FFFFFF', color: '#64070A' }} onClick={() => setIsLogin(true)}>Sing Up</button>
                                 <button className='button-login' style={{ backgroundColor: '#FF9A9E', color: '#FFFFFF' }} onClick={() => setIsLogin(false)}>Login</button>
                             </div>
@@ -73,11 +83,17 @@ function SingUp() {
                             <button>Login</button>
                         </div>
 
+<<<<<<< HEAD:src/singup/SingUp.js
                         <div className='line_text'>
                             <div></div>
                             <div>OR</div>
                             <div></div>
                         </div>
+=======
+                        {/* <div className='line_text'>
+                            <hr /><span>OR</span><hr />
+                        </div> */}
+>>>>>>> f24d485cf552d3873912dd25c672d8392398e404:src/component/singup/SingUp.js
 
                         <div className='btn_icons'>
                             <button className='google_btn'><img src={img2} alt='' style={{ marginRight: "14px" }} /><span>Sing in With Google</span></button>
