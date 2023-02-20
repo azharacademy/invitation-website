@@ -1,57 +1,40 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
   --font: "Inter", sans-serif;
 }
-=======
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
 
 @media (max-width: 412px) {
   * {
     margin: 0%;
     padding: 0%;
-<<<<<<< HEAD
     box-sizing: border-box;
-=======
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
     background-color: #ffffff;
   }
 
   .burgur_btn img {
     width: 1.2rem;
     height: 1rem;
-<<<<<<< HEAD
-    /* margin-left: 1rem; */
-=======
-    margin-left: 1rem;
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
   }
 
   .burgur_btn {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-<<<<<<< HEAD
-    /* margin-top: 2rem; */
     margin: 2rem 0 1rem 1.5rem;
   }
 
   .burgur_btn h3 {
     margin: 0;
-=======
     margin-top: 2rem;
   }
 
   .burgur_btn h3 {
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
     padding-left: 1rem;
     color: #64070a;
     font-size: 20px;
     font-weight: 400;
-<<<<<<< HEAD
     font-family: var(--font);
     font-style: normal;
-=======
     font-family: "Inter";
     font-style: normal;
     margin: 0;
@@ -59,7 +42,6 @@
   ul {
     margin: 0;
     padding: 0;
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
   }
 
   .input_search {
@@ -68,11 +50,7 @@
     border-radius: 15px;
     box-sizing: border-box;
     width: 90%;
-<<<<<<< HEAD
-    /* margin-left: 4%; */
-    /* height: 36px; */
     align-items: center;
-    /* margin-top: 11px; */
     display: inline-flex;
   }
   .search_button {
@@ -96,7 +74,6 @@
   .inputs {
     margin: 0 !important;
     padding-left: 0.8rem;
-=======
     margin-left: 4%;
     height: 36px;
     align-items: center;
@@ -110,19 +87,13 @@
 
   .inputs {
     padding-left: 7px;
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
     border: none;
   }
 
   .input_img {
-<<<<<<< HEAD
-    /* margin-left: 9px; */
-    /* height: 18px; */
     width: 1rem;
-=======
     margin-left: 9px;
     height: 18px;
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
   }
 
   .inputs input:active {
@@ -131,11 +102,8 @@
 
   .inputs[type="search"]::placeholder {
     padding-left: -1px;
-<<<<<<< HEAD
     font-family: var(--font);
-=======
     font-family: "Inter";
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
     font-style: normal;
     font-weight: 400;
     border: none;
@@ -149,29 +117,22 @@
     margin-top: 12px;
     overflow-x: auto;
     white-space: nowrap;
-<<<<<<< HEAD
-    /* height: 29px; */
-=======
     height: 29px;
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
   }
 
   .a_tag::-webkit-scrollbar {
     display: none;
   }
 
-<<<<<<< HEAD
   .a_tag ul {
     padding-left: 0;
     margin: 0;
-    /* height: inherit; */
   }
   .a_tag ul li {
     display: inline-block;
     margin: 0 7px;
     border-radius: 0.7rem;
     padding: 0.3rem 0.7rem;
-    /* background: #64070a; */
   }
 
   .a_tag ul li a {
@@ -180,28 +141,20 @@
     color: #64070a;
     font-size: 14px;
     line-height: 17px;
-    /* padding: 0.5rem !important;
-        position: relative;
-        border-radius: 20%; */
-    /* border-radius: 10px; */
     text-decoration: none;
     letter-spacing: 0.5px;
-    /* text-transform: uppercase; */
-=======
+    color: #64070a;
+    padding: 4px 9px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+ 
   .a_tag ul li {
     display: inline-block;
     margin: 0 7px;
   }
 
-  .a_tag ul li a {
-    color: #64070a;
-    font-size: 12px;
-    padding: 4px 9px;
-    border-radius: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
-  }
+
 
   a.active,
   a:active {
@@ -209,15 +162,6 @@
     color: #ffffff !important;
     transition: 0.5s;
   }
-<<<<<<< HEAD
-  li.active,
-  li:active {
-    background-color: #e85e63 !important;
-    color: #ffffff !important;
-    transition: 0.5s;
-  }
-=======
->>>>>>> f24d485cf552d3873912dd25c672d8392398e404
 
   .image-container {
     position: absolute;
