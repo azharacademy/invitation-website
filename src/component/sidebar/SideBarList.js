@@ -4,6 +4,7 @@ import img3 from '../images/heartLogo.png'
 import img4 from '../images/starLogo.png'
 import img5 from '../images/shareLogo.png'
 import img6 from '../images/logOutLogo.png'
+import { Link } from 'react-router-dom'
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faHeart, faDuotone } from '@fortawesome/free-solid-svg-icons'
@@ -21,7 +22,7 @@ function SideBarList() {
                 <ul>
                     <li className="log_div"  >
                         <img src={img2} alt='' className='img_div' />
-                        <a href='#' className='a_sidebar' >Sign up / Login</a>
+                        <Link to='/signup' className='a_sidebar' >Sign up / Login</Link>
                     </li>
                     <li className='favourtie-div' >
                         <img src={img3} alt='' className='img_div' />
