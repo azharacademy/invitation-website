@@ -8,8 +8,8 @@ function Part1() {
     return (
         <>
             <div>
-                <div className='burgur_btn' onClick={() => { !navOpen ? setNavOpen(true) : setNavOpen(false) }}>
-                    <img src={img1} alt='' />
+                <div className='burgur_btn'>
+                    <img src={img1} alt='' onClick={() => { !navOpen ? setNavOpen(true) : setNavOpen(false) }} />
                     <h3>Invitation Plane</h3>
                 </div>
                 {navOpen ? <SideBar /> : ""}
