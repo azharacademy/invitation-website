@@ -16,7 +16,7 @@ function Part1() {
                 <div className='search_section'>
                     <div className='input_search'>
                         <button className='search_button'><img src={img2} alt='' className='input_img' /></button>
-                        <input type='search' className='inputs' placeholder='Search' />
+                        <input type='search' className='input-navbar' placeholder='Search' />
                     </div>
                 </div>
             </div>

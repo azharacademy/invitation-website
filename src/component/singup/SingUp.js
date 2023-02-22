@@ -11,7 +11,7 @@ function SingUp() {
             {isLogin ?
                 <div className='mai_div'>
                     <div>
-                        <div className='img_div'>
+                        <div className='img_div-singup'>
                             <img src={img1} alt="" />
                         </div>
                         <h3 className='text_area'>Invitation Planet</h3>
@@ -41,7 +41,7 @@ function SingUp() {
                 : <div>
                     <div className='mai_div'>
                         <div>
-                            <div className='img_div'>
+                            <div className='img_div-singup'>
                                 <img src={img1} alt="" />
                             </div>
                             <h3 className='text_area'>Invitation Planet</h3>

@@ -7,7 +7,7 @@ function SideBarLogo() {
         <div className='logoMainDiv'>
             <div className='logo_div'>
                 <div className='sideBarLogo'>
-                    <img src={img1} />
+                    <img src={img1} alt='' />
                 </div>
             </div>
             <div className='sideBarLogoHeading'>
