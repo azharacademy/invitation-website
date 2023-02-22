@@ -2,7 +2,7 @@ import React from 'react'
 import img7 from '../images/feedback.png'
 function SideBarHelp() {
     return (
-        <div>
+        <div className='helpMain'>
             <div>
                 <hr className='hr-div' />
             </div>
