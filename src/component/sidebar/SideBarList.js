@@ -27,19 +27,19 @@ function SideBarList() {
                     <li className='favourtie-div' >
                         <img src={img3} alt='' className='img_div' />
                         {/* <FontAwesomeIcon icon={[faHeart]} /> */}
-                        <a href='!' className='a_sidebar'>Favourite</a>
+                        <a href='#' className='a_sidebar'>Favourite</a>
                     </li>
                     <li>
                         <img src={img4} alt='' className='img_div' />
-                        <a href='!' className='a_sidebar'>Rate us</a>
+                        <a href='#' className='a_sidebar'>Rate us</a>
                     </li>
                     <li >
                         <img src={img5} alt='' className='img_div' />
-                        <a href='!' className='a_sidebar' >Share App</a>
+                        <a href='#' className='a_sidebar' >Share App</a>
                     </li >
                     <li>
                         <img src={img6} alt='' className='img_div' />
-                        <a href='!' className='a_sidebar' >Logout</a>
+                        <a href='#' className='a_sidebar' >Logout</a>
                     </li>
                 </ul>
             </div>
