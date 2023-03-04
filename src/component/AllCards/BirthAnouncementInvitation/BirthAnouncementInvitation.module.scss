@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+
+.navigationTop {
+    display: flex;
+    padding: 1rem 0 0 1rem;
+    align-items: center;
+}
+
+.navigationTop img {
+    width: 0.678rem;
+    height: 1.184rem;
+}
+
+.navigationTop h5 {
+    font-family: 'Inter';
+    font-size: 1.125rem;
+    margin-left: 0.7rem;
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+}
