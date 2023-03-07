@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+
+// Explore Now Banner
+
+.exploreNowBannerMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.exploreNowBanner {
+    width: 22.5rem;
+    height: 9.4rem;
+    background: #EFEEE5;
+}
+
+.linearGradient {
+    width: 22.5rem;
+    height: 5.12rem;
+    background: linear-gradient(180deg, #E06387 0%, rgba(224, 99, 135, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flowerBackground {
+    width: 21.5rem;
+    height: 8.1rem;
+    background: url(../images/image18.png);
+    top: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.flowerBackground img {
+    background: transparent;
+    width: 5.813rem;
+    height: 5.875rem;
+}
+
+.tagLine {
+    background: transparent;
+    text-align: center;
+}
+
+.tagLine p {
+    background: transparent;
+    font-family: 'Merienda';
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.083rem;
+    width: 9rem;
+    text-align: center;
+}
+
+.exploreButton {
+    background: #E16E8E;
+    border-radius: 2.125rem;
+    font-family: 'Merienda';
+    font-size: 0.625rem;
+    line-height: 0.903rem;
+    text-align: center;
+    border: none;
+    padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+// Wedding Cards
+.WeddingCardsMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+    width: max-content;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    margin-top: 1.2rem;
+}
+
+.cardCommonStyle {
+    width: 10rem;
+    height: 12.9rem;
+    background: #D9D9D9;
+    position: relative;
+    margin-bottom: 1rem;
+
+}
+
+.cardCommonStyle p {
+    background: transparent;
+    bottom: 0;
+    margin-bottom: 0.4rem;
+    line-height: 1.063rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: absolute;
+    width: 100%;
+
+}
+
+.otherCommunityWeddingCard {
+    // width: 10rem;
+    height: 12.9rem;
+    background: #D9D9D9;
+    position: relative;
+    margin-top: 1rem;
+    width: 88%;
+    
+}
+
+.otherCommunityWeddingCard p {
+    background: transparent;
+    bottom: 0;
+    margin-bottom: 0.4rem;
+    line-height: 1.063rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: absolute;
+}
+
+.weddingCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

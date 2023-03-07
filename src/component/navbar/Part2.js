@@ -3,6 +3,11 @@ import "./Navbar.css"
 import { Link } from 'react-router-dom'
 import { unstable_composeClasses } from '@mui/material';
 function Part2() {
+    const [ishover, sethover] = useState(false);
+
+    useEffect(() => {
+        sethover(true)
+    }, [])
     // const [intialActive,setInitialActive] = useState('');
 
     // const [removeActive, setRemoveActive] = useState('');
@@ -30,17 +35,10 @@ function Part2() {
 
             <div className='navigationBar'>
                 <ul className='navigationList'>
-                    <Link to='/' activeStyle={{
-                        backgroundColor: '#e85e63',
-                        color: '#ffffff !important',
-                        borderRadius: '1rem',
-                        /* padding: 0.2rem 0rem 0.2rem 0; */
-                        transition: '0.5s'
-                    }}><li className='intialActive'>Wedding</li></Link>
-                    <Link to='/birthday'><li>Birthday</li></Link>
-                    <Link to='/festivals'><li>Festivals</li></Link>
-                    <Link to='/openingCeremony'><li>Opening Ceremony</li></Link>
-                    <Link to='/openingCeremony'><li>Jummagi</li></Link>
+                    <Link to='/' ><li className={ishover ? 'intialActive' : ''} onClick={() => sethover(true)} id='initial'>Wedding</li></Link>
+                    <Link to='/birthday'><li onClick={() => sethover(false)}>Birthday</li></Link>
+                    <Link to='/festivals'><li onClick={() => sethover(false)}>Festivals</li></Link>
+                    <Link to='/openingCeremony'><li onClick={() => sethover(false)}>Opening Ceremony</li></Link>
                 </ul>
             </div >
         </>

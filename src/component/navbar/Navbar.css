@@ -213,6 +213,13 @@
     /* padding: 0.2rem 0rem 0.2rem 0; */
     transition: 0.5s;
   }
+  .navigationList a .intialActive {
+    background-color: #e85e63;
+    color: #ffffff !important;
+    border-radius: 1rem;
+    /* padding: 0.2rem 0rem 0.2rem 0; */
+    transition: 0.5s;
+  }
 
   .image-container {
     position: absolute;

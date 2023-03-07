@@ -18,12 +18,14 @@ import Root from './component/Root/Root';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<Root />}>
-        <Route index element={<Wedding />} />
+      <Route>
         <Route path='/signup' element={<SingUp />} />
-        <Route path='/birthday' element={<Birthday />} />
-        <Route path='/festivals' element={<Festivals />} />
-        <Route path='/openingceremony' element={<OpeningCeremony />} />
+        <Route path='/' element={<Root />}>
+          <Route index element={<Wedding />} />
+          <Route path='/birthday' element={<Birthday />} />
+          <Route path='/festivals' element={<Festivals />} />
+          <Route path='/openingceremony' element={<OpeningCeremony />} />
+        </Route>
       </Route>
     )
   )

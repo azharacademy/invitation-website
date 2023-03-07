@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import img1 from '../images/burgurbtn.png'
-import img2 from '../images/Vector.png'
+import img2 from '../images/searchbar.png'
 import "./Navbar.css"
 import SideBar from '../sidebar/SideBar'
 function Part1() {
