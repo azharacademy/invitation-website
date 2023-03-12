@@ -3,7 +3,7 @@
   --font: "Inter", sans-serif;
 }
 
-@media (max-width: 412px) {
+
   * {
     margin: 0%;
     padding: 0%;
@@ -238,4 +238,4 @@
     top: 7px;
     height: 129px;
   }
-}
+
