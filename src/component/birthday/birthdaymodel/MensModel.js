@@ -15,7 +15,7 @@ import img1 from '../../images/arrow.png'
 
 
 
-export default function WeddingModel(props) {
+export default function MensModel(props) {
   const { open, handleClose } = props
   return (
     <div>

@@ -14,7 +14,7 @@ import cx from 'classnames'
 import img1 from '../../images/arrow.png'
 
 
-function HinduWeddingModal(props) {
+function BabyBoyModel(props) {
 
     const { open, handleClose } = props
 
@@ -40,7 +40,7 @@ function HinduWeddingModal(props) {
                                 >
                                     <img src={img1} alt='!' style={{ marginRight: ' 0.5rem' }} />
                                 </button>
-                                Hindu Marriage Invitation
+                                Baby Boy
                             </Typography>
 
                         </Toolbar>
@@ -88,4 +88,4 @@ function HinduWeddingModal(props) {
     )
 }
 
-export default HinduWeddingModal
+export default BabyBoyModel
