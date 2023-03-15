@@ -43,14 +43,14 @@ function EgagementModel(props) {
             <div className={styles.mainDiv}>
               <div className={styles.WeddingCardsMain} >
 
-                <div className={cx(styles.muslimCard, styles.cardCommonStyle)}>
-                  <p>Bride Marriage Biodata</p>
+                <div className={cx(styles.engagementFirst, styles.cardCommonStyle)}>
+                  {/* <p>Bride Marriage Biodata</p> */}
                 </div>
-                <div className={cx(styles.muslimCard, styles.cardCommonStyle)}>
-                  <p>Groom Marriage Biodata</p>
+                <div className={cx(styles.engagementSecond, styles.cardCommonStyle)}>
+                  {/* <p>Groom Marriage Biodata</p> */}
                 </div>
-                <div className={cx(styles.muslimCard, styles.cardCommonStyle)}>
-                  <p>Engagement</p>
+                <div className={cx(styles.engagementThird, styles.cardCommonStyle)}>
+                  {/* <p>Engagement</p> */}
                 </div>
               </div>
             </div>

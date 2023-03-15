@@ -42,13 +42,13 @@ function BrideMarriage(props) {
                             <div className={styles.WeddingCardsMain} >
 
                                 <div className={cx(styles.muslimCard, styles.cardCommonStyle)}>
-                                    <p>Bride Marriage Biodata</p>
+                                    {/* <p>Bride Marriage Biodata</p> */}
                                 </div>
                                 <div className={cx(styles.muslimCard, styles.cardCommonStyle)}>
-                                    <p>Groom Marriage Biodata</p>
+                                    {/* <p>Groom Marriage Biodata</p> */}
                                 </div>
                                 <div className={cx(styles.muslimCard, styles.cardCommonStyle)}>
-                                    <p>Engagement</p>
+                                    {/* <p>Engagement</p> */}
                                 </div>
                             </div>
                         </div>
