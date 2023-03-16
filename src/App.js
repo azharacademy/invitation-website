@@ -14,16 +14,19 @@ import Wedding from './component/wedding/Wedding';
 import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route } from "react-router-dom";
 import BirthAnouncementInvitation from './component/AllCards/BirthAnouncementInvitation/BirthAnouncementInvitation';
 import Root from './component/Root/Root';
+import Editor from './component/customisationEditor/Editor';
 
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={<Root />}>
+        
         <Route index element={<Wedding />} />
         <Route path='/signup' element={<SingUp />} />
         <Route path='/birthday' element={<Birthday />} />
         <Route path='/festivals' element={<Festivals />} />
         <Route path='/openingceremony' element={<OpeningCeremony />} />
+        
       </Route>
     )
   )
