@@ -14,6 +14,9 @@ import Wedding from './component/wedding/Wedding';
 import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route } from "react-router-dom";
 import BirthAnouncementInvitation from './component/AllCards/BirthAnouncementInvitation/BirthAnouncementInvitation';
 import Root from './component/Root/Root';
+// import Card1 from './component/MuslimMarriage/Card1/Card1';
+import Card2 from './component/MuslimMarriage/Card2/Card2';
+import Card2_Venue from './component/MuslimMarriage/Card2/Card2_Venue';
 
 function App() {
   const router = createBrowserRouter(
@@ -25,6 +28,8 @@ function App() {
           <Route path='/birthday' element={<Birthday />} />
           <Route path='/festivals' element={<Festivals />} />
           <Route path='/openingceremony' element={<OpeningCeremony />} />
+          <Route path='/muslimcards' element={<Card2 />} />
+          <Route path='/date' element={<Card2_Venue />} />
         </Route>
       </Route>
     )

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+.venue p {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #A11B1B;
+    margin-bottom: 0.3rem;
+
+}
+
+.timing {
+    margin-top: 0.7rem;
+}
+
+.venue {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.venue hr {
+    width: 13rem;
+    color: #000000;
+    margin-bottom: 0.2rem;
+}

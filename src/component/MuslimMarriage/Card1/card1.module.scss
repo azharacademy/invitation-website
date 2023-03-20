@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.class1 {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 8.125rem;
+    height: 8.125rem;
+    top: 6.5rem;
+    background: linear-gradient(180deg, #28323E 0%, #9D9472 100%);
+    position: absolute;
+}
+
+.cardNameDiv {
+    // position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.125rem;
+    height: 8.125rem;
+    background: transparent;
+}
+
+.cardName {
+    font-family: 'Merienda', cursive;
+    background: transparent;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.72rem;
+    line-height: 29px;
+    color: #FFE593;
+    width: max-content;
+    margin: 0;
+    letter-spacing: 1px;
+    // position: absolute;
+}
+
+.whosWedding {
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    bottom: 10.5rem;
+}
+
+.whosWedding h4 {
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: #FFE593;
+    background: transparent;
+    width: 12rem;
+    margin: 0;
+    letter-spacing: 1px;
+    // width: 100%;
+}
+
+.whosWedding p {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: #FEF5D9;
+    background: transparent;
+    margin: 0;
+    letter-spacing: 1px;
+    // width: 100%;
+}
+
+.brideName {
+    text-align: left;
+}
+
+.groomName {
+    text-align: right;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.img2 {
+    background: transparent;
+}
+
+.img2 img {
+    width: 8.5rem;
+    position: relative;
+    background: transparent;
+}
+
+.img3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.img3 img {
+    width: 11.2em;
+    // position: absolute;
+    // bottom: -15rem;
+    background: transparent;
+}
+
+.bottomSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // position: absolute;
+    position: absolute;
+    background: transparent;
+    bottom: -2.4rem;
+
+}

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+.card2 {
+    background: #F9EBD7;
+    width: max-content;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.card2 img {
+    background: transparent;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bismillah {
+    position: absolute;
+    background: transparent;
+    top: 13rem;
+}
+
+.bismillah img {
+    width: 4rem;
+    background: transparent;
+}
+
+.praise {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.625rem;
+    // line-height: 19px;
+    text-align: center;
+    color: #A21B1B;
+    position: absolute;
+    width: 100%;
+    top: 17.5rem;
+    background: transparent;
+
+}
+
+.praiseDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.otherInfo {
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    top: 20rem;
+}
+
+.otherInfo p,
+h3 {
+    background: transparent;
+    font-family: 'Lora';
+    // letter-spacing: 0.5px;
+}
+
+.otherInfo h3 {
+    font-size: 0.8rem;
+    color: #A11B1B;
+    // margin-bottom: 0.1rem;
+}
+
+.otherInfo p {
+    font-size: 0.625rem;
+    color: #000000;
+}
+
+.surname {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.honorOf {
+    margin-bottom: 1rem
+}
+
+.nikahCeremony {
+    margin-bottom: 0.5rem;
+
+}
+
+.doughterOf {
+    margin-bottom: 1.3rem;
+}
+
+.brideName {
+    margin-bottom: 0;
+    font-family: 'Merienda';
+}
+
+.d_o {
+    margin-bottom: 0.8rem;
+}
+.s_o{
+    margin-bottom: 0.3rem;
+}
+.with {
+    margin-bottom: 0.8rem;
+}
+
+.groomName {
+    margin-bottom: 0;
+    font-family: 'Merienda';
+}
+
+.img1 img {
+    width: 3rem;
+    background: #F9EBD7;
+    // background: transparent;
+    // position: absolute;
+}
+
+.img1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    z-index: 10;
+}
+
+.img1 p {
+    position: absolute;
+}
+
+
+
+.bottomInfo {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bottomInfo p {
+    margin: 0;
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    color: #A21B1B;
+
+}
+
+.bottomInfo p,
+div {
+    background: transparent;
+}
+
+.line1,
+.line2 {
+    background: transparent;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1 {
+    position: relative;
+    top: 0.7rem;
+}
+
+.line2 {
+    position: relative;
+    bottom: 0.7rem;
+}
+
+.line1 img {
+    width: 11rem;
+    height: 2px;
+}
+
+.line2 img {
+    width: 11rem;
+    height: 2px;
+}

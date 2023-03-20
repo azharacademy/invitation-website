@@ -11,7 +11,6 @@ import { useState } from 'react';
 
 function Haldi(props) {
     const { open, handleClose } = props
-
     return (
         <>
             <div>
