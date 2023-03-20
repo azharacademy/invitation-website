@@ -22,13 +22,14 @@ function App() {
     createRoutesFromElements(
       <Route>
         <Route path='/signup' element={<SingUp />} />
+        <Route path='/card2' element={<Card2 />} />
+          <Route path='/card1' element={<Card1 />} />
         <Route path='/' element={<Root />}>
           <Route index element={<Wedding />} />
           <Route path='/birthday' element={<Birthday />} />
           <Route path='/festivals' element={<Festivals />} />
           <Route path='/openingceremony' element={<OpeningCeremony />} />
-          <Route path='/card2' element={<Card2 />} />
-          <Route path='/card1' element={<Card1 />} />
+
         </Route>
       </Route>
     )

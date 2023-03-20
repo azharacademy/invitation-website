@@ -8,9 +8,16 @@ import styles from './Engagement.module.scss'
 import cx from 'classnames'
 import img1 from '../../../images/arrow.png'
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 function EgagementModel(props) {
   const { open, handleClose } = props
+  const [showCard,setShowCard]=useState(false)
+    const navigate = useNavigate()
+    if(showCard){
+      console.log('log is happing');
+    }
 
   return (
     <div>
@@ -42,7 +49,7 @@ function EgagementModel(props) {
             <div className={styles.mainDiv}>
               <div className={styles.WeddingCardsMain} >
 
-                <div className={cx(styles.engagementFirst, styles.cardCommonStyle)}>
+                <div onClick={()=>setShowCard(true)} className={cx(styles.engagementFirst, styles.cardCommonStyle)}>
                   {/* <p>Bride Marriage Biodata</p> */}
                 </div>
                 <div className={cx(styles.engagementSecond, styles.cardCommonStyle)}>
@@ -56,6 +63,8 @@ function EgagementModel(props) {
           </div>
         </List>
       </Dialog>
+      {showCard && navigate('/card2')}
+
     </div>
   )
 }

@@ -8,9 +8,13 @@ import styles from './BrideMarriage.module.scss'
 import cx from 'classnames'
 import img1 from '../../../images/arrow.png'
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 function BrideMarriage(props) {
     const { open, handleClose } = props
+    const [showCard,setShowCard]=useState(false)
+    const navigate = useNavigate()
     return (
         <div>
             <Dialog
@@ -41,7 +45,7 @@ function BrideMarriage(props) {
                         <div className={styles.mainDiv}>
                             <div className={styles.WeddingCardsMain} >
 
-                                <div className={cx(styles.muslimCard, styles.cardCommonStyle)}>
+                                <div onClick={()=>setShowCard(true)} className={cx(styles.muslimCard, styles.cardCommonStyle)}>
                                     {/* <p>Bride Marriage Biodata</p> */}
                                 </div>
                                 <div className={cx(styles.muslimCard, styles.cardCommonStyle)}>
