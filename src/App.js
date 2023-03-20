@@ -16,8 +16,7 @@ import BirthAnouncementInvitation from './component/AllCards/BirthAnouncementInv
 import Root from './component/Root/Root';
 // import Card1 from './component/MuslimMarriage/Card1/Card1';
 import Card2 from './component/MuslimMarriage/Card2/Card2';
-import Card2_Venue from './component/MuslimMarriage/Card2/Card2_Venue';
-
+import Card1 from './component/MuslimMarriage/Card1/Card1'
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -28,8 +27,8 @@ function App() {
           <Route path='/birthday' element={<Birthday />} />
           <Route path='/festivals' element={<Festivals />} />
           <Route path='/openingceremony' element={<OpeningCeremony />} />
-          <Route path='/muslimcards' element={<Card2 />} />
-          <Route path='/date' element={<Card2_Venue />} />
+          <Route path='/card2' element={<Card2 />} />
+          <Route path='/card1' element={<Card1 />} />
         </Route>
       </Route>
     )
