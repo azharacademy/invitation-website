@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    background: #ffffff;
+}
+
+.pym-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.pym-div img{
+    margin-left: 1rem;
+}
+.pym-div h3{
+    margin-left: 1rem;
+}
+
+.pay-counter{
+    display: flex;
+    justify-content: end;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.pay-option{
+    border: 1px solid blue;
+    margin-top: 1rem;
+    box-shadow: inset;
+    border: none;
+}
+.pay-option h3{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.google-pay{
+    display: flex;
+    align-items: center;
+}
+.google-image{
+    margin-left: 1rem;
+}
+.google-pay h4{
+    margin-left: 1rem;
+}
+
+.image-div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 0%;
+}
+
+.line{
+    width: 315px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}

@@ -49,10 +49,10 @@ function EgagementModel(props) {
             <div className={styles.mainDiv}>
               <div className={styles.WeddingCardsMain} >
 
-                <div onClick={()=>setShowCard(true)} className={cx(styles.engagementFirst, styles.cardCommonStyle)}>
+                <div onClick={()=>navigate('/card2')} className={cx(styles.engagementFirst, styles.cardCommonStyle)}>
                   {/* <p>Bride Marriage Biodata</p> */}
                 </div>
-                <div className={cx(styles.engagementSecond, styles.cardCommonStyle)}>
+                <div onClick={()=> navigate('/card1')} className={cx(styles.engagementSecond, styles.cardCommonStyle)}>
                   {/* <p>Groom Marriage Biodata</p> */}
                 </div>
                 <div className={cx(styles.engagementThird, styles.cardCommonStyle)}>
@@ -63,7 +63,6 @@ function EgagementModel(props) {
           </div>
         </List>
       </Dialog>
-      {showCard && navigate('/card2')}
 
     </div>
   )
