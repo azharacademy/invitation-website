@@ -77,6 +77,10 @@
   // grid-template-columns: repeat(2, 1fr);
   // column-gap: 0.5rem;
   // width: max-content;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1rem;
+  margin: 1rem
 }
 
 .mainDiv {
@@ -87,12 +91,7 @@
   margin-top: 1.2rem;
 }
 
-.cardCommonStyle {
-  width: 10rem;
-  height: 12.9rem;
-  background: #d9d9d9;
-  position: relative;
-}
+
 
 .cardCommonStyle p {
   background: transparent;
@@ -128,23 +127,32 @@
   flex-direction: column;
   align-items: center;
 }
-.engagementFirst {
-  width: 8.5rem;
-  height: 18.5rem;
-  background: url(../../../../cardsimages/Engagement-1.png);
-  margin-bottom: 1rem
-}
+// .engagementFirst {
+//   width: 8.5rem;
+//   height: 18.5rem;
+//   background: url(../../../../cardsimages/Engagement-1.png);
+//   margin-bottom: 1rem
+// }
 
-.engagementSecond{
-    width: 8.5rem;
-    height: 18.5rem;
-  margin-bottom: 1rem;
-  background: url(../../../../cardsimages/Engagement-2.png);
+// .engagementSecond{
+//     width: 8.5rem;
+//     height: 18.5rem;
+//   margin-bottom: 1rem;
+//   background: url(../../../../cardsimages/Engagement-2.png);
 
-}
-.engagementThird{
-    width: 8.5rem;
-  height: 18.5rem;
-    margin-bottom: 1rem;
-    background: url(../../../../cardsimages/Engagement-3.png);
+// }
+// .engagementThird{
+//     width: 8.5rem;
+//   height: 18.5rem;
+//     margin-bottom: 1rem;
+//     background: url(../../../../cardsimages/Engagement-3.png);
+// }
+.commonCardStyle{
+  background: #d9d9d9;
+  position: relative;
+  background-image: url(../../../MuslimMarriage/Card2/card2Images/thumbnail.png);
+  width: 5rem;
+  height: 11rem;
+  background-size: contain;
+  background-repeat: no-repeat
 }
